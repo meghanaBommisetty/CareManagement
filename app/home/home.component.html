@@ -1,0 +1,15 @@
+<div>
+   <div id="header">
+       <header>
+     <ul>
+     <li> <span class="right_header">Welcome {{currentUser.firstName}} | {{today | date}} | <a [routerLink]="['/login']">Logout</a> </span></li>
+        <li><span class="main_header" >Care management solutions</span></li>    
+            </ul>
+            </header>
+   </div>
+  <nav>
+<a routerLink="/mainhome" routerLinkActive="active">Home</a>   
+<a routerLink="/assements" routerLinkActive="active">Assements</a>   
+    </nav>
+ <mainhome></mainhome>
+ </div>
